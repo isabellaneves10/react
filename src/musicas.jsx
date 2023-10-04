@@ -11,12 +11,14 @@ function Musicas() {
             </div>
             <div class="container">
                 <div class="music-boxes">
-                   <ItemMusica />
-                   <ItemMusica />
-                   <ItemMusica />
-                   <ItemMusica />
-                   <ItemMusica />
-                   <ItemMusica />
+                    <div class="container">
+                        <div class="music-boxes">
+                            <ItemMusica nome="Como passar de semestre" artista="SprintBreakers" genero="Música da boa" ano="2023"/>
+                            <ItemMusica nome="Estudei para a prova" artista="SprintBreakers" genero="Música da boa" ano="2023"/>
+                            <ItemMusica nome="Passei de semestre" artista="SprintBreakers" genero="Música da boa" ano="2023"/>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </>

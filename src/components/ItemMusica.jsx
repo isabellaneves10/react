@@ -1,5 +1,5 @@
 import React from "react";
-function ItemMusica() {
+function ItemMusica(props) {
     return (
         <>
          <div class="card-music">
@@ -11,22 +11,22 @@ function ItemMusica() {
                             <p>
                                 <strong class="card-title">música:
                                 </strong>
-                                <input class="input-music-enable" type="text" value="Musica"/>
+                                <input class="input-music-enable" type="text" value={props.nome}/>
                             </p>
                             <p>
                                 <strong class="card-title">artista:
                                 </strong>
-                                <input class="input-music-enable" type="text" value="Teste"/>
+                                <input class="input-music-enable" type="text" value={props.artista}/>
                             </p>
                             <p>
                                 <strong class="card-title">categoria:
                                 </strong>
-                                <input class="input-music-enable" type="text" value="Teste"/>
+                                <input class="input-music-enable" type="text" value={props.genero}/>
                             </p>
                             <p>
                                 <strong class="card-title">ano:
                                 </strong>
-                                <input class="input-music-enable" type="text" value="Teste"/>
+                                <input class="input-music-enable" type="text" value={props.ano}/>
                             </p>
                             <button class="btn-salvar-enable">Salvar</button>
                         </div>
