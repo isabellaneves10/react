@@ -2,7 +2,7 @@ import api from "./api";
 import {useState} from "react";
 import "./html-css-template/css/style.css"
 import "./html-css-template/css/reset.css";
-import Musicas from "./musicas";
+import Musicas from "./Musicas";
 
 
 function App() {
